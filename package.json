@@ -1,0 +1,11 @@
+{
+  "name": "typecheck-tern-lint",
+  "version": "0.0.0",
+  "devDependencies": {
+    "tern-lint": "^0.6.0"
+  },
+  "license": "MIT",
+  "scripts": {
+    "typecheck": "tern-lint --format"
+  }
+}

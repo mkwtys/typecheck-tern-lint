@@ -1,0 +1,20 @@
+{
+  "ecmaVersion": 6,
+  "libs": [
+    "browser"
+  ],
+  "loadEagerly": [
+    "src/*.js"
+  ],
+  "plugins": {
+    "complete_strings": {},
+    "doc_comment": {
+      "strong": true,
+      "fullDocs": true
+    },
+    "es_modules": {},
+    "lint": {},
+    "modules": {},
+    "node": {}
+  }
+}
