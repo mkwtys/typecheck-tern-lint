@@ -4,17 +4,15 @@
     "browser"
   ],
   "loadEagerly": [
-    "src/*.js"
+    "src/**/*.js"
   ],
   "plugins": {
     "complete_strings": {},
     "doc_comment": {
-      "strong": true,
-      "fullDocs": true
+      "fullDocs": true,
+      "strong": true
     },
     "es_modules": {},
-    "lint": {},
-    "modules": {},
-    "node": {}
+    "lint": {}
   }
 }
